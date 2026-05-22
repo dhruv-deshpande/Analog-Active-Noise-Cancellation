@@ -1,6 +1,6 @@
 # Analog Active Noise Cancellation (ANC) System
 
-A hardware-based analog Active Noise Cancellation (ANC) system designed to attenuate predictable low-frequency ambient noise (such as fan hum or motor noise) using real-time analog signal processing. The circuit conditions a reference noise input, applies a calculated phase delay, and generates an inverted "anti-noise" signal to achieve destructive acoustic interference.
+A hardware-based analog Active Noise Cancellation (ANC) system designed to attenuate predictable low-frequency ambient noise (such as fan hum or motor noise) using real-time analog signal processing. The circuit conditions a reference noise input, applies a calculated phase delay, and generates an inverted "anti-noise" signal to achieve destructive interference.
 
 > **Project Context:** Developed as an Electronic System Design Project (ESDP) for the 4th-semester ECE curriculum at MIT, Manipal. 
 
