@@ -6,7 +6,7 @@ A hardware-based analog Active Noise Cancellation (ANC) system designed to atten
 
 ---
 
-## 🛠️ My Core Technical Contributions & Ownership
+## My Core Technical Contributions & Ownership
 While the attached engineering report represents the final collaborative team submission, I personally owned and executed the core technical phases of this project:
 
 * **Circuit Simulation & Optimization (LTspice):** Designed, modeled, and verified the complete multi-stage schematic. Performed transient analysis (`.tran 0 10m 0 1u`) to validate exact signal inversion and accurate signal blending.
@@ -15,7 +15,7 @@ While the attached engineering report represents the final collaborative team su
 
 ---
 
-## 📐 Circuit Architecture & Engineering Specs
+## Circuit Architecture & Engineering Specs
 
 The entire system is implemented using **LT741 operational amplifiers** ($\times 4$) distributed across three primary functional blocks:
 
@@ -38,13 +38,13 @@ Combines the desired audio/music input with the conditioned anti-noise signal.
 
 ---
 
-## 📊 System Components Used
+## System Components Used
 * **Active Devices:** LT741 Operational Amplifiers
 * **Passives:** $1\text{ nF}$ and $10\ \mu\text{F}$ Capacitors; $100\ \Omega$, $1\text{ k}\Omega$, $10\text{ k}\Omega$, $13\text{ k}\Omega$, $22\text{ k}\Omega$, $235\text{ k}\Omega$, and $1\text{ M}\Omega$ Resistors
 * **Instrumentation:** Dual $\pm12\text{V}$ Power Supply, Function Generator, Oscilloscope
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 * **Adaptive Filtering:** Transition from a fixed analog RC delay line to a digital adaptive filtering algorithm (such as the LMS algorithm) to handle dynamic, multi-frequency ambient environments.
 * **Multi-Frequency Arrays:** Expand the single-stage all-pass network into a multi-stage active filter network to handle higher-frequency noise spectrums.
